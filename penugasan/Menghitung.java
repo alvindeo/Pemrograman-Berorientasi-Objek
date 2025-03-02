@@ -4,16 +4,15 @@ package penugasan;
 public class Menghitung{
     public static void main (String[] args) {
         //variabel yang dibutuhkan
-        int panjang, lebar, tinggi, jarijari, sisi, alas, luas;
-        panjang = 10;
+        int lebar, tinggi, jarijari, sisi, alas, luas;
         lebar = 5;
         tinggi = 8;
         jarijari = 7;
         sisi = 4;
         alas = 6;
-        float phi =22/7;
+        float phi = 22.0f / 7.0f;
 
-       System.out.println("\n=== RUMUS PERSEGI ===");
+        System.out.println("\n=== RUMUS PERSEGI ===");
         //rumus luas
         int LuasPersegi = sisi * sisi;
         System.out.println("Luas Persegi adalah: " + LuasPersegi);
@@ -21,7 +20,7 @@ public class Menghitung{
         //rumus keliling
         int KelilingPersegi = 4 * sisi;
         System.out.println("Keliling Persegi adalah: " + KelilingPersegi);
-
+    
         System.out.println("\n=== RUMUS SEGITIGA ===");
         //rumus luas
         float LuasSegitiga = 0.5f * alas * tinggi;
@@ -40,9 +39,9 @@ public class Menghitung{
         float KelilingLingkaran = 2 * phi * jarijari;
         System.out.println("Keliling Lingkaran adalah: " + KelilingLingkaran);
 
-       System.out.println("\n=== RUMUS KUBUS ===");
+        System.out.println("\n=== RUMUS KUBUS ===");
         //rumus Luas
-        int LuasKubus = 6 * sisi;
+        int LuasKubus = 6 * (sisi * sisi);
         System.out.println("Luas Kubus adalah: " + LuasKubus);
 
         //rumus keliling

@@ -28,7 +28,7 @@ public class Menghitung{
         System.out.println("Luas Segitiga adalah: " + LuasSegitiga);
 
         //rumus keliling
-        float KelilingSegitiga = alas + sisi + sisi;
+        float KelilingSegitiga = sisi + sisi + sisi;
         System.out.println("Keliling Segitiga adalah: " + KelilingSegitiga);
 
         System.out.println("\n=== RUMUS LINGKARAN ===");
@@ -40,13 +40,13 @@ public class Menghitung{
         float KelilingLingkaran = 2 * phi * jarijari;
         System.out.println("Keliling Lingkaran adalah: " + KelilingLingkaran);
 
-        System.out.println("\n=== RUMUS KUBUS ===");
+       System.out.println("\n=== RUMUS KUBUS ===");
         //rumus Luas
-        int LuasKubus = 6 * (panjang * panjang);
+        int LuasKubus = 6 * sisi;
         System.out.println("Luas Kubus adalah: " + LuasKubus);
 
         //rumus keliling
-        int KelilingKubus = 12 * panjang;
+        int KelilingKubus = 12 * sisi;
         System.out.println("Keliling Kubus adalah: " + KelilingKubus);
     }
 }

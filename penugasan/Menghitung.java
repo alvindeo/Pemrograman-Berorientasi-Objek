@@ -13,13 +13,13 @@ public class Menghitung{
         alas = 6;
         float phi =22/7;
 
-        System.out.println("\n=== RUMUS PERSEGI ===");
+       System.out.println("\n=== RUMUS PERSEGI ===");
         //rumus luas
-        int LuasPersegi = panjang * lebar;
+        int LuasPersegi = sisi * sisi;
         System.out.println("Luas Persegi adalah: " + LuasPersegi);
 
         //rumus keliling
-        int KelilingPersegi = 4 * panjang;
+        int KelilingPersegi = 4 * sisi;
         System.out.println("Keliling Persegi adalah: " + KelilingPersegi);
 
         System.out.println("\n=== RUMUS SEGITIGA ===");
